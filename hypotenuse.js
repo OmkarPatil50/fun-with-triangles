@@ -18,7 +18,7 @@ function inputHandler(){
 function  sumCalculator(sideOneValue,sideTwoValue){
    const sum = sideOneValue**2 + sideTwoValue**2;
    const hypo = Math.sqrt(sum)
-   const roundedHypo = hypo.toPrecision(3)
+   const roundedHypo = hypo.toFixed(3)
    outputMsg.innerText = "The length of Hypotenuse is " + roundedHypo  + " cm"
 }
 
