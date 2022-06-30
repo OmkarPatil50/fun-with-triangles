@@ -133,3 +133,7 @@ padding-left: 1rem ;
   font-weight: bolder;
   font-size: x-large;
 }
+
+#options{
+    cursor: pointer;
+}
